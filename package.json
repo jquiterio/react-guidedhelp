@@ -2,9 +2,14 @@
   "name": "react-guidedhelp",
   "version": "0.0.1",
   "description": "Guided help for React",
-  "main": "index.js",
   "repository": "https://github.com/jquiterio/react-guidedhelp",
   "author": "Jorge Quiterio",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "files": [
+    "dist"
+  ]
 }

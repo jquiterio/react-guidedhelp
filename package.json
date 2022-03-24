@@ -2,7 +2,10 @@
   "name": "react-guidedhelp",
   "version": "0.0.1",
   "description": "Guided help for React",
-  "repository": "https://github.com/jquiterio/react-guidedhelp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jquiterio/react-guidedhelp.git"
+  },
   "author": "Jorge Quiterio",
   "license": "MIT",
   "private": false,
@@ -11,5 +14,16 @@
   "jsnext:main": "dist/index.es.js",
   "files": [
     "dist"
-  ]
+  ],
+  "keywords": [
+    "tour",
+    "help",
+    "guided help"
+  ],
+  "peerDependencies": {
+    "prop-types": "^15.5.4",
+    "react": "^14.19.0",
+    "react-dom": "^14.19.0",
+    "@material-ui/core": "~3.7.1"
+  }
 }
